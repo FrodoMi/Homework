@@ -1,19 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework4</title>
-    <link rel="stylesheet" href="./assets/css/normalize.css"/>
-    <link rel="stylesheet" href="./index.css"/>
-</head>
-<body>
-    <header class="header">
-        <h1>CSS Diner Shopping List</h1>
-        <p>Let's go to the mall!</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 5</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="icon" href="./assets/image/favicon1.png" type="image/x-icon" />
+  </head>
 
-    </header>
+  <body>
     
-</body>
+  <!-- Домашнее задание 5 и ссылка на общий список д/з -->
+  
+  <div>
+    <h1>Homework 5</h1>
+  <nav>
+    <h2>
+      <a href="../Report_Homework/index.html">Back to general list</a>
+    </h2>
+  </nav>
+  </div>
+
+    <!-- Отдельным блоком идет шапка  -->
+
+    <header class="header">
+      <h1>CSS Diner Shopping List</h1>
+      <p>Let's go to the mall!</p>
+    </header>
+    <main>
+
+      <!-- Остальной контект имеет одинаковую ширину, поэтому одним блоком -->
+
+      <div class="container">
+
+        <!-- активную часть задаю через список -->
+
+      <ul class="list">
+
+        <!-- определяю размещение основных элементов, задаю классы -->
+
+        <li class="list-item">
+          <input id="check-1" type="checkbox" />
+            <label for="check-1">
+            A lot of pickles
+            <span class="span">for the next lessons about CSS</span>
+            </label>
+        </li>
+        <li class="list-item">
+         <input id="check-2" type="checkbox"/>
+          <label for="check-2">
+          10 apples <span class="span">for more CSS manipulations</span>
+        </label>
+        </li>
+        <li class="list-item">
+         <input id="check-3" type="checkbox" />
+          <label for="check-3">
+          20 oranges <span class="span">because they are awesome</span>
+        </label>
+        </li>
+        <li class="list-item">
+         <input id="check-4" type="checkbox" />
+          <label for="check-4">
+          13 plates <span class="span">hm... they always dissapear</span>
+        </label>
+        </li>
+        <li class="list-item">
+         <input id="check-5" type="checkbox" />
+          <label for="check-5">
+          15 bentos <span class="span">for the next lessons about CSS</span>
+        </label>
+        </li>
+        <li class="list-item">
+         <input id="check-6" type="checkbox" />
+          <label for="check-6">
+          1 bottle of Sake <span class="span">for my friends</span>
+        </label>
+        </li>
+      </ul>
+      <!-- последняя часть -->
+      <button class="button">Bon appetit :)</button>
+    </div>
+    </main>
+  </body>
 </html>
