@@ -1,0 +1,103 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.Homework {
+  display: block;
+  border: 3px;
+}
+
+body {
+  color: #070707;
+  max-width: 1000px;
+  font-size: 18px;
+  margin: 0 auto;
+  }
+
+.nav_form {
+  border-bottom: 1px solid #828282;
+  padding: 25px 30px;
+  text-align: center;
+}
+
+.nav_link {
+  text-decoration: none;
+  color:  #828282;
+  padding: 0 20px 0 20px;
+}
+
+.name {
+  font-size: 24px;
+  margin: 30px;
+}
+
+.chapter_color {
+  background: #f6f6f6;
+}
+
+.chapter_1 {
+  padding: 50px 0;
+}
+
+.chapter_2 {
+  padding: 25px 0;
+}
+
+.text-info {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.text-info-a {
+  color: #070707;
+}
+
+.zagolovok_2 {
+  text-align: center;
+  font-size: 34px;
+}
+
+.portfolio_image {
+  padding-top: 25px;
+}
+
+
+.image {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 100%;
+}
+
+
+.icons {
+  padding: 0 30px 0 30px;
+}
+
+
+.send-message {
+  padding: 9px 30px 9px 30px;
+  background-color: black;
+  text-decoration: none;
+  border-radius: 30px;
+  line-height: 24px;
+  color: white;
+}
+
+
+.link-color {
+  color: #828282;
+}
