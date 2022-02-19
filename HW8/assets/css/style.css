@@ -14,8 +14,8 @@ a {
     text-decoration: none;
 }
 
- /* Стиль для блока ссылок по домашним заданиям */
- .homework-link {
+/* Стиль для блока ссылок по домашним заданиям */
+.homework-link {
   width: 1200px;
   height: 100px;
   background-color: aquamarine;

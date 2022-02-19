@@ -1,0 +1,120 @@
+/* стандартное обнуление стилей */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  :root {
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray: #EDEDED;
+  }
+  
+  /* Стиль для блока ссылок по домашним заданиям */
+  .homework-link {
+    width: 1200px;
+    height: 100px;
+    background-color: aquamarine;
+    line-height: 50px;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+/* Обвертка всей странице */
+  .wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 35px;
+    font-family: 'Roboto', sans-serif;
+  }
+/* Стандартные параметры все блокам */
+  .container {
+    max-width: 1850px;
+  }
+/* Стили для хедера */
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    margin-bottom: 80px;
+  }
+/* Стили левого блока хедера */
+  .header__block {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 350px;
+    width: 100%;
+    margin-top: 20px;
+  }
+/* Стили блока с линками */
+  .breadcrumbs {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .breadcrumbs__link {
+    cursor: pointer;
+  }
+
+  .header__language {
+    color: var(--color-white);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--color-black);
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+/* Стили для основного блока с текстом */
+
+.content {
+  font-size: 36px;
+  line-height: 48px;
+  
+}
+
+.content__section {
+  margin-bottom: 80px;
+}
+
+
+.content__section--title {
+  margin-bottom: 60px;
+}
+
+h1::first-letter {
+  font-size: 15px;
+  font-weight: 700;
+  vertical-align: text-top;
+}
+
+.content__section--react {
+  margin-bottom: 50px;
+}
+
+.content__section--span {
+  background-color: var(--color-gray);
+}
